@@ -5,9 +5,13 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>HOMIHELP - LENDING PAGE</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="keywords" content="homihelp, homi, homitoken, homiecosystem">
-	<meta name="author" content="">
+        <link rel="shortcut icon" type="image/png" href="https://www.homihelp.com/40X40.png">
+       <meta property="og:image" content="https://www.homihelp.com/frontend/images/logo.png" />
+<meta property="og:title" content="HomiHelp - A Complete Customer Support Services Platform!" />
+<meta property="og:description" content="A customer support services platform that sells its services through cryptocurrency, aims to make cryptocurrency more accessible and implement decentralised features in software one by one so that users can easily understand the decentralised apps feature wise by using in daily business tools." />
+      <meta name="description" content="A customer support services platform that sells its services through cryptocurrency, aims to make cryptocurrency more accessible and implement decentralised features in software one by one so that users can easily understand the decentralised apps feature wise by using in daily business tools." />
+       <meta name="keywords" content="Homihelp, Homi Token, HomiHelp Token, Ethereum ERC20, Lead generation, Ticket management, Live Customer support, Chatbot, Knowledge base, Customer acquisition, Account based marketing" />
+
 
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css" />
@@ -95,7 +99,7 @@
 								class support for their customers.
 								</p>
 								<ul class="btns">
-									<li><a class="gradient g3 theme-btn" href="https://www.homihelp.com/" target="_blank" title="">Land To HOMI Chat Platform</a></li>
+									<li><a class="gradient g3 theme-btn" href="https://www.homihelp.com/home" target="_blank" title="">Landing To HOMI Chat Platform</a></li>
 									<!--<li><a class="theme-btn blank" href="#two" title="">Token Distribution</a></li> -->
 								</ul>
 								
