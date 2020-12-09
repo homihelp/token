@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>HOMIHELP - LENDING PAGE</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" type="image/png" href="https://www.homihelp.com/40X40.png">
@@ -60,7 +60,7 @@
 			</div>
 			<nav id="navsc">
 					<ul>
-						<li class="active"><a class="smooth" href="#five" title="">EXCHANGES</a></li>
+						<li class="active"><a class="smooth" href="#five" title="">PARTNERS</a></li>
 						<li><a class="smooth" href="https://www.homihelp.com/home" title="">PRODUCTS</a></li>
 					        <li><a class="smooth" href="#one" title="">ABOUT HOMI</a></li>
 						<li><a class="smooth" href="#two" title="">TOKEN DISTRIBUTION</a></li>
@@ -327,7 +327,7 @@ HomiHelp Platform aims to make cryptocurrency more accessible and implement dece
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="partnersec">
-							<h3>Partners</h3>
+							<h3>Listing Partners</h3>
 							<div class="clsec">
 								<div class="cl wow fadeIn" data-wow-delay="0s"> <a href="https://crex24.com/exchange/HOMI-BTC" title="" target="_blank"><img src="images/partners/crex24.png" alt="" /></a> </div>
 								<div class="cl wow fadeIn" data-wow-delay="0.2s"> <a href="https://altilly.com/asset/HOMI" title="" target="_blank"><img src="images/partners/altilly.png" alt="" /></a> </div>
