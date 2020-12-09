@@ -1,10 +1,8 @@
-
-
 <?php
   $servername = "localhost:3306";
-  $username = "root";
-  $password = "";
-  $database = "homihelp";
+  $username = "admin_homihelp";
+  $password = "_0Pps93b";
+  $database = "admin_homihelp";
 
   
 $con=mysqli_connect($servername,$username, $password,$database);
