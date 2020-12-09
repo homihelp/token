@@ -57,7 +57,8 @@
 			<nav id="navsc">
 					<ul>
 						<li class="active"><a class="smooth" href="#five" title="">EXCHANGES</a></li>
-						<li><a class="smooth" href="#one" title="">ABOUT HOMI</a></li>
+						<li><a class="smooth" href="https://www.homihelp.com/home" title="">PRODUCTS</a></li>
+					        <li><a class="smooth" href="#one" title="">ABOUT HOMI</a></li>
 						<li><a class="smooth" href="#two" title="">TOKEN DISTRIBUTION</a></li>
 						<li><a class="smooth" href="#four" title="">TEAM</a></li>
 						<li><a class="smooth" href="#six" title="">FAQ</a></li>
@@ -117,7 +118,9 @@
 					<div class="col-lg-6">
 						<div class="why-info s2 wow fadeIn" data-wow-delay="0s">
 							<h3>Why Invest HOMIHELP TOKEN ?</h3>
-							<p></p>
+							<p style="text-align:justify">Homihelp is trying to solve the adoption problem by giving users and businesses fully centralized services and tools, while adding cryptocurrency as a payment model. <br>
+Homihelp platform is very simple to implement and use platform with daily need business tools. This is a self-funded project with full working and ready to use software. No ICO was conducted to raise funds. But now Our project will work towards the maximum adoption of cryptocurrency and try to involve businesses by helping them under decentralized features in daily business tools
+</p>
 						
 						
 							<a class="fancybtn" href="https://youtu.be/zNFX5ajB1fE" title="">
@@ -133,25 +136,25 @@
 								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 									<div class="ser wow fadeIn" data-wow-delay="0s">
 										<img src="images/icon1.png" alt="" />
-										<p>The revolutionized Platform</p>
+										<p>Easy to use dashboard for tracking agent performance.</p>
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 									<div class="ser wow fadeIn" data-wow-delay="0.2s">
 										<img src="images/icon2.png" alt="" />
-										<p>Open Source Audit-able transaction</p>
+										<p>Secure Chat Platform</p>
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 									<div class="ser wow fadeIn" data-wow-delay="0.4s">
 										<img src="images/icon3.png" alt="" />
-										<p>1 Trillion $ Market 3% Market Share Target</p>
+										<p>Integrate code and start chatting instantaneously.</p>
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 									<div class="ser wow fadeIn" data-wow-delay="0.6s">
 										<img src="images/icon4.png" alt="" />
-										<p>T2 Million Users Target </p>
+										<p>T2 Million Business Target </p>
 									</div>
 								</div>
 							</div>
@@ -172,7 +175,7 @@
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12  wow fadeIn" data-wow-delay="0.2s">
 									<div class="tkenf tc1  rounded floating">
 										<img src="images/icon6.png" alt="" />
-										<span>Secured<br>Payment</span>
+										<span>Satisfaction<br>Rating</span>
 									</div>
 									<div class="tkenf tc4  rounded  floating">
 										<img src="images/icon9.png" alt="" />
@@ -182,21 +185,21 @@
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12  wow fadeIn" data-wow-delay="0.4s">
 									<div class="tkenf tc2  martop1 rounded  floating">
 										<img src="images/icon7.png" alt="" />
-										<span>Fully<br>Sercure</span>
+										<span>Fully<br>Secure</span>
 									</div>
 									<div class="tkenf tc3  martop1 rounded  floating">
 										<img src="images/icon8.png" alt="" />
-										<span>Internal<br>Integration</span>
+										<span>Easy<br>Integration</span>
 									</div>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12  wow fadeIn" data-wow-delay="0.10s">
 									<div class="tkenf tc5  martop2 rounded  floating">
 										<img src="images/icon10.png" alt="" />
-										<span>External<br>Intergration</span>
+										<span>Private<br>Chat Notes</span>
 									</div>
 									<div class="tkenf tc6  martop2 rounded  floating">
 										<img src="images/icon11.png" alt="" />
-										<span>Payment<br>Gateway</span>
+										<span>HOMI Token<br>Payment</span>
 									</div>
 								</div>
 							</div>
@@ -286,7 +289,7 @@ HomiHelp Platform aims to make cryptocurrency more accessible and implement dece
 				<div class="row">
 					<div class="col-lg-3">
 						<div class="teaminfos wow fadeIn">
-							<h3>Team</h3>
+							<h3>Core Team</h3>
 							<p> HOMIHELP is built by a team that believes in mainstream adoption of cryptocurrency and blockchain. </p>
 						</div>
 					</div>
@@ -344,10 +347,20 @@ HomiHelp Platform aims to make cryptocurrency more accessible and implement dece
 						<div class="faqsec s2">
 							<h3>Frequently Asked Question</h3>
 							<div id="toggle-widget" class="experties">
-								<h2 class="wow fadeInUp" data-wow-delay="0s">What is HOMIHELP?</h2>
-								<div class="content">
-									<p></p>
-								</div>
+								<?php include('config.php');
+		$s= "SELECT * FROM `faqs` where `company_id`= 1149 order by `rank` ASC";           
+        $questionresult = mysqli_query($con,$s);
+while($rows = mysqli_fetch_assoc($questionresult))
+{    
+        $question = $rows['question'];
+		$answer   = $rows['answer'];
+							
+		echo						"<h2 class='wow fadeInUp' data-wow-delay='0s'>$question</h2>
+								<div class='content'>
+									<p style='margin-bottom:0px;margin-top:0px;'>$answer</p>
+								</div>";
+								}
+								?>
 								
 							</div>
 						</div>
@@ -378,7 +391,7 @@ HomiHelp Platform aims to make cryptocurrency more accessible and implement dece
 								<div class="contactformsec wow fadeIn" id="contact">
 									<h3>Contact</h3>
 									<div id="message"></div>
-									<form method="post" action="" name="contactform" id="contactform">
+									<form method="post" action="contact.php" name="contactform" id="contactform">
 										<input class="homefrm" name="name" type="text" id="name" placeholder="Your Name" />
 										<input class="homefrm"  name="email" type="text" id="email" placeholder="Your Email"  />
 										<textarea class="homefrm" name="comments" id="comments" placeholder="Your Message"></textarea>
