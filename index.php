@@ -101,7 +101,7 @@
 								
 							</div>
 							<div class="fimg animute wow fadeIn" data-wow-delay="0.2s">
-								<img src="images/resource/mockup1.png" alt="" />
+								<img src="images/resource/mock.png" alt="" />
 							</div>
 						</div>
 						<div class="scrolldown"><a href="#scrolldown" title="">Scroll Down</a></div>
